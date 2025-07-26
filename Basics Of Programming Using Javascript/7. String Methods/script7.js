@@ -11,10 +11,11 @@
 
 // toUpperCase()
 let firstName = "samran"
-let firstNameUpperCase = firstName.toLocaleUpperCase()
-let firstNameLowerCase = firstName.toLocaleLowerCase()
-let firstChar = firstName[0]
-let secondPositionToEndPosition = firstName.indexOf()
-console.log(secondPositionToEndPosition)
-console.log(firstNameUpperCase)
+
+let firstNameUpperCase = firstName.toUpperCase()
+let firstNameLowerCase = firstName.toLowerCase()
+let firstCharUpperCase = firstName[0].toUpperCase() + firstName.slice(1,firstName.length)
 console.log(firstNameLowerCase)
+console.log(firstNameUpperCase)
+console.log(firstCharUpperCase) 
+console.log(firstName.slice(0, 3))
