@@ -12,5 +12,5 @@ var firstName = "Samran";
 console.log(firstName);
 
 // Change value
-firstName = "Rajpoot";
+firstName = "Kamran";
 console.log(firstName);

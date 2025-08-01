@@ -9,8 +9,8 @@
 // var 1value = 10; // (invalid)
 // console.log(1value) // (invalid)
 
-// var value1 = 10; // (valid)
-// var value2 = 2;
+var value1 = 10; // (valid)
+var value2 = 2;
 
 // calculations
 // console.log(value1 + 10) // Plus

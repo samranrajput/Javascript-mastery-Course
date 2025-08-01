@@ -13,25 +13,25 @@
 // Checking of data types 
 let firstName = "samran"
 let age = 22
-// console.log(typeof firstName)
-// console.log(typeof age)
+// console.log(typeof firstName) // string
+// console.log(typeof age) //number
 
 // Trick Convert number to String
-// console.log(age)
+// console.log(age) // number
 // console.log(age+"")
 
 // console.log(typeof age)
 // let str = age + ""
-// console.log(typeof str)
+// console.log(typeof str) // string
 
 
 
 // Trick convert string to number
 // let strAge = "22"
-// console.log(typeof strAge)
+// console.log(typeof strAge) // string
 
 // let intAge = +"22"
-// console.log(typeof intAge)
+// console.log(typeof intAge) // number
 
 // convention to javascript Convert number to String
 console.log(age)

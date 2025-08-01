@@ -14,8 +14,10 @@ let firstName = "samran"
 
 let firstNameUpperCase = firstName.toUpperCase()
 let firstNameLowerCase = firstName.toLowerCase()
-let firstCharUpperCase = firstName[0].toUpperCase() + firstName.slice(1,firstName.length)
 console.log(firstNameLowerCase)
 console.log(firstNameUpperCase)
-console.log(firstCharUpperCase) 
+
+// slice()
 console.log(firstName.slice(0, 3))
+let firstCharUpperCase = firstName[0].toUpperCase() + firstName.slice(1,firstName.length)
+console.log(firstCharUpperCase) 

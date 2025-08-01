@@ -12,9 +12,19 @@
 // console.log(firstName);
 
 // We cannot create duplicate variables using let, which is correct.
-let firstName = "Samran";
+// let firstName = "Samran";
 // let firstName = "kamran"; // invalid
-firstName = "kamran"; // valid
-console.log(firstName);
+// firstName = "kamran"; // valid
+// console.log(firstName);
 
 // block scop vs function scope
+// {
+//     var firstName = "samran" 
+// }
+// console.log(firstName) // Not Error Not use var Key word
+
+// Convention 
+// {
+//     let lastName = "Veritas" 
+// }
+// console.log(lastName) // Error use let Key word

@@ -4,13 +4,13 @@
 // firstName = "Samran"
 // console.log(typeof firstName)
 
-// null
+// null 
 // let nullVar = null
 // console.log(nullVar)
 // console.log(typeof nullVar) // Bug
 
 // BigInt
-
-let numbers = "123456789"
-let intNumbers = BigInt(numbers)
-console.log(typeof intNumbers)
+let numbers = BigInt(12) // convention
+let intNumbers = 123n // trick
+console.log(intNumbers + numbers)
+// console.log(Number.MAX_SAFE_INTEGER)

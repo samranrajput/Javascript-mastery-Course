@@ -9,7 +9,7 @@ console.log(firstName[0]); // s
 console.log(firstName[5]); // n
 
 // length of string
-// firstName.length
+// firstName.length // 6
 
 let len = firstName.length
 console.log(len)
