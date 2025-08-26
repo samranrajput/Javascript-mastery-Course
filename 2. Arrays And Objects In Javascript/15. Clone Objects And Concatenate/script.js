@@ -31,7 +31,7 @@ let newObj1 = {...obj1, ...obj2}
 
 let newObj2 = {...obj1, ...obj2, key5: "value5"}
 
-let newObj3 = {...obj1, ...obj2}
+let newObj3 = {..."abc"}
 
 console.log(newObj1)
 
