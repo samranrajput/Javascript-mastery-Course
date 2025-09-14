@@ -1,7 +1,7 @@
 // Array Methods Push, Pop, Shift, Unshift 
 
-let fruits = ["apple", "mango", "banana"]
-console.log(fruits)
+// let fruits = ["apple", "mango", "banana"]
+// console.log(fruits)
 // push
 // fruits.push("grapes")
 // console.log(fruits)
@@ -17,6 +17,6 @@ console.log(fruits)
 // console.log(fruits)
 
 // shift
-let returnFruit = fruits.shift()
-console.log(returnFruit )
-console.log(fruits)
+// let returnFruit = fruits.shift()
+// console.log(returnFruit )
+// console.log(fruits)
