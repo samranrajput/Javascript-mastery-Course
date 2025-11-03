@@ -6,11 +6,11 @@
 // which can change that information later
 
 // declare a variable
-var firstName = "Samran";
+firstName = "Samran";
 
 // use a variable
 console.log(firstName);
 
 // Change value
-firstName = "Kamran";
-console.log(firstName);
+firstname = "Kamran";
+// console.log(firstName);
