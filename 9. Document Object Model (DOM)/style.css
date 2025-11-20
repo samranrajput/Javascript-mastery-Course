@@ -15,6 +15,11 @@ a {
   color: white;
 }
 
+.bg-dark {
+  background: black;
+  color: red;
+}
+
 .header {
   min-height: 60vh;
   position: relative;
@@ -69,6 +74,7 @@ a {
 
 .section-todo {
   margin-top: 5rem;
+  border: 2px solid red;
   text-align: center;
 }
 
@@ -104,6 +110,20 @@ a {
   padding: 1rem;
 }
 
+.todo-list {
+  text-align: left;
+  font-size: 1.2rem;
+  list-style: none;
+}
+
+.todo-list li {
+  padding: 0.8rem;
+  background: #444;
+  color: cyan;
+  margin-top: 1rem;
+  text-transform: uppercase;
+}
+
 .signup-form {
   max-width: 800px;
   width: 95%;
@@ -135,4 +155,29 @@ a {
   display: block;
   margin: auto;
   margin-top: 1rem;
+}
+
+.qty-container {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+  border: 2px solid red;
+}
+
+.qty-container .plus,
+.qty-container .minus {
+  background: black;
+  color: green;
+  border: 5px groove green;
+  padding: 0.5rem 0.8rem;
+}
+
+.qty-container .plus:active,
+.qty-container .minus:active {
+  transform: scale(0.9);
+}
+
+.qty-container .qty {
+  color: green;
+  padding: 0.5rem 0.8rem;
 }
